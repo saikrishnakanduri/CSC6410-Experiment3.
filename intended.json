@@ -1,0 +1,37 @@
+{
+  "student-host:host": {
+    "os": "windows",
+    "interface": [
+      {
+        "name": "Wi-Fi",
+        "type": "wifi",
+        "oper-status": "up",
+        "mtu": 1500
+      },
+      {
+        "name": "Ethernet",
+        "type": "ethernet",
+        "oper-status": "down",
+        "mtu": 1500
+      },
+      {
+        "name": "Ethernet 2",
+        "type": "virtual",
+        "oper-status": "up",
+        "mtu": 1500
+      },
+      {
+        "name": "vEthernet (WSL (Hyper-V firewall))",
+        "type": "virtual",
+        "oper-status": "up",
+        "mtu": 1500
+      },
+      {
+        "name": "Bluetooth Network Connection",
+        "type": "other",
+        "oper-status": "down",
+        "mtu": 1500
+      }
+    ]
+  }
+}

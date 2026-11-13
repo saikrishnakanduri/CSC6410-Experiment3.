@@ -1,0 +1,96 @@
+{
+  "student-host:host": {
+    "hostname": "student-pc",
+    "os": "windows",
+    "collected-at": "2026-11-12T23:24:19.891857-06:00",
+    "interface": [
+      {
+        "name": "vEthernet (WSL (Hyper-V firewall))",
+        "oper-status": "up",
+        "type": "virtual",
+        "mtu": 1500,
+        "mac": "00:15:5d:xx:xx:xx",
+        "ipv4": [
+          "192.0.2.10/20"
+        ],
+        "ipv6": []
+      },
+      {
+        "name": "Ethernet 2",
+        "oper-status": "up",
+        "type": "virtual",
+        "mtu": 1500,
+        "mac": "0a:00:27:xx:xx:xx",
+        "ipv4": [
+          "192.0.2.10/24"
+        ],
+        "ipv6": []
+      },
+      {
+        "name": "Local Area Connection* 1",
+        "oper-status": "down",
+        "type": "other",
+        "mtu": 1500,
+        "mac": "d4:54:8b:xx:xx:xx",
+        "ipv4": [
+          "192.0.2.10/16"
+        ],
+        "ipv6": []
+      },
+      {
+        "name": "Local Area Connection* 2",
+        "oper-status": "down",
+        "type": "other",
+        "mtu": 1500,
+        "mac": "d6:54:8b:xx:xx:xx",
+        "ipv4": [
+          "192.0.2.10/16"
+        ],
+        "ipv6": []
+      },
+      {
+        "name": "Wi-Fi",
+        "oper-status": "up",
+        "type": "wifi",
+        "mtu": 1500,
+        "mac": "d4:54:8b:xx:xx:xx",
+        "ipv4": [
+          "192.0.2.10/24"
+        ],
+        "ipv6": []
+      },
+      {
+        "name": "Bluetooth Network Connection",
+        "oper-status": "down",
+        "type": "other",
+        "mtu": 1500,
+        "mac": "d4:54:8b:xx:xx:xx",
+        "ipv4": [
+          "192.0.2.10/16"
+        ],
+        "ipv6": []
+      },
+      {
+        "name": "Ethernet",
+        "oper-status": "down",
+        "type": "ethernet",
+        "mtu": 1500,
+        "mac": "c0:18:03:xx:xx:xx",
+        "ipv4": [
+          "192.0.2.10/16"
+        ],
+        "ipv6": []
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "oper-status": "up",
+        "type": "loopback",
+        "mtu": 1500,
+        "ipv4": [
+          "192.0.2.10/8"
+        ],
+        "ipv6": []
+      }
+    ]
+  }
+}
